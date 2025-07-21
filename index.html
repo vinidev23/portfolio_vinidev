@@ -13,32 +13,35 @@
     <title>Vinícius Martin | Portfólio</title>
   </head>
   <body>
+    <div class="particulas"></div>
     <nav class="navegacao">
       <ul class="menu">
         <li>
-          <a href="#inicio">Início</a>
+          <a href="#inicio" class="menu-link">Início</a>
         </li>
 
         <li>
-          <a href="#sobre">Sobre</a>
+          <a href="#sobre" class="menu-link">Sobre</a>
         </li>
 
         <li>
-          <a href="#projetos">Projetos</a>
+          <a href="#projetos" class="menu-link">Projetos</a>
         </li>
 
         <li>
-          <a href="#contato">Contato</a>
+          <a href="#contato" class="menu-link">Contato</a>
         </li>
       </ul>
     </nav>
 
     <main id="inicio" class="cabecalho">
-      <div>
-        <img src="img/foto_perfil.jpeg" alt="Foto de perfil" />
-        <h1>Vinícius Martin</h1>
-        <p>Full Stack Developer</p>
-      </div>
+      <img
+        src="img/foto_perfil.jpeg"
+        alt="Foto de perfil"
+        class="foto-perfil"
+      />
+      <h1>Vinícius Martin</h1>
+      <p class="cabecalho-subtitulo">Full Stack Developer</p>
     </main>
 
     <section id="sobre" class="sobre">
@@ -82,11 +85,13 @@
             alt="Imagem do Projeto 1"
             class="projetos-img"
           />
-          <h3 class="info-projetos">DollarBot</h3>
-          <p class="paragrafo-projetos">
-            Bot de conversa com IA integrada, que permite a informação da moeda
-            entre diferentes cotações.
-          </p>
+          <div class="caixa-texto">
+            <h3 class="info-projetos"><span>DollarBot</span></h3>
+            <p class="paragrafo-projetos">
+              Bot de conversa com IA integrada, que permite a informação da
+              moeda entre diferentes cotações
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
@@ -95,11 +100,13 @@
             alt="Imagem do Projeto 2"
             class="projetos-img"
           />
-          <h3 class="info-projetos">Coffe's</h3>
-          <p class="paragrafo-projetos">
-            Site destinado a Cafeterias, com estilização moderna, e interface
-            intuitiva.
-          </p>
+          <div class="caixa-texto">
+            <h3 class="info-projetos"><span>Coffe's</span></h3>
+            <p class="paragrafo-projetos">
+              Site destinado a Cafeterias, com estilização moderna, e interface
+              intuitiva
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
@@ -108,11 +115,13 @@
             alt="Imagem do Projeto 3"
             class="projetos-img"
           />
-          <h3 class="info-projetos">Burger Dev's</h3>
-          <p class="paragrafo-projetos">
-            Site destinado a Hambúrguerias, com estilização moderna, interface
-            intuitiva e pedido automático via Whatsap..
-          </p>
+          <div class="caixa-texto">
+            <h3 class="info-projetos"><span>Burger Dev's</span></h3>
+            <p class="paragrafo-projetos">
+              Site destinado a Hambúrguerias, com estilização moderna, interface
+              intuitiva e pedido automático via Whatsapp
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
@@ -121,10 +130,12 @@
             alt="Imagem do Projeto 4"
             class="projetos-img"
           />
-          <h3 class="info-projetos">Web Scraper</h3>
-          <p class="paragrafo-projetos">
-            Site destinado a extração de dados através de uma URL.
-          </p>
+          <div class="caixa-texto">
+            <h3 class="info-projetos"><span>Web Scraper</span></h3>
+            <p class="paragrafo-projetos">
+              Site destinado a extração de dados através de uma URL
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
@@ -133,11 +144,13 @@
             alt="Imagem do Projeto 5"
             class="projetos-img"
           />
-          <h3 class="info-projetos">TaskFlow</h3>
-          <p class="paragrafo-projetos">
-            Sistema de gerenciamento de tarefas, com a criação dos fluxos de
-            trabalho.
-          </p>
+          <div class="caixa-texto">
+            <h3 class="info-projetos"><span>TaskFlow</span></h3>
+            <p class="paragrafo-projetos">
+              Sistema de gerenciamento de tarefas, com a criação dos fluxos de
+              trabalho
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
@@ -146,17 +159,19 @@
             alt="Imagem do Projeto 6"
             class="projetos-img"
           />
-          <h3 class="info-projetos">WorkSync Hub</h3>
-          <p class="paragrafo-projetos">
-            Plataforma completa de gerenciamento de conteúdo entre equipes na
-            empresa
-          </p>
+          <div class="caixa-texto">
+            <h3 class="info-projetos"><span>WorkSync Hub</span></h3>
+            <p class="paragrafo-projetos">
+              Plataforma completa de gerenciamento de conteúdo entre equipes na
+              empresa
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contatos" class="contatos">
-      <h2 class="contatos-titulo">Contatos</h2>
+      <h2 class="contatos-titulo">Entre em Contato</h2>
       <form class="formulario-contato" id="formulario">
         <div class="grupo-form">
           <input placeholder="Nome" class="campo-form" />
@@ -164,9 +179,10 @@
         <div class="grupo-form">
           <textarea
             placeholder="Digite sua Mensagem"
-            class="text-form"
+            class="campo-form"
           ></textarea>
         </div>
+        <button type="submit" class="botao-form">Enviar via Whatsapp</button>
       </form>
     </section>
   </body>
