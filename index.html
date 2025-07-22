@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <title>Vinícius Martin | Portfólio</title>
   </head>
   <body>
@@ -172,14 +173,20 @@
 
     <section id="contatos" class="contatos">
       <h2 class="contatos-titulo">Entre em Contato</h2>
-      <form class="formulario-contato" id="formulario">
+      <form
+        class="formulario-contato"
+        id="formulario"
+        onSubmit="enviarWhats(event)"
+      >
         <div class="grupo-form">
-          <input placeholder="Nome" class="campo-form" />
+          <input placeholder="Nome" class="campo-form" id="nome" />
         </div>
         <div class="grupo-form">
           <textarea
             placeholder="Digite sua Mensagem"
             class="campo-form"
+            id="mensagem"
+            rows="6"
           ></textarea>
         </div>
         <button type="submit" class="botao-form">Enviar via Whatsapp</button>
