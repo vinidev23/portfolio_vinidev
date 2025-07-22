@@ -5,7 +5,7 @@ function enviarWhats(event) {
   const telefone = "5518981039015";
 
   const texto = `Olá! Meu nome é ${nome}, ${mensagem}`;
-  const msgFormatada = encodedURIComponent(texto);
+  const msgFormatada = encodeURIComponent(texto);
 
   const link = `https://wa.me/${telefone}/?text=${msgFormatada}`;
 
