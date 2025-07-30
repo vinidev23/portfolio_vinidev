@@ -265,3 +265,95 @@ span {
 #digitando-nome {
   display: inline-block;
 }
+
+.titulodollar {
+  font-size: 2.5rem;
+  color: var(--claro);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid var(--vidro);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.logodollar {
+  width: 175px;
+  height: 175px;
+}
+
+.descdollar {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 60px;
+  color: var(--primaria);
+}
+
+.prototipodollar {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.copyright {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  color: var(--claro);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logocoffes {
+  width: 275px;
+  height: 175px;
+}
+
+.logobdev {
+  width: 275px;
+  height: 175px;
+}
+
+.linksite {
+  color: var(--claro);
+  text-decoration: underline;
+}
+
+.logowscrp {
+  width: 175px;
+  height: 175px;
+}
+
+.logotflow {
+  width: 175px;
+  height: 175px;
+}
+
+.logowhub {
+  width: 175px;
+  height: 175px;
+}
+
+.redesocial {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.iconeling {
+  padding: 0 0.7rem;
+}
