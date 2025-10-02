@@ -54,7 +54,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+  background: linear-gradient(90deg, var(--primaria), var(--escuro));
 }
 
 .menu-link:hover::after {
