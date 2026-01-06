@@ -149,14 +149,17 @@ h1 {
 }
 
 .projetos-card {
+  min-width: 300px; 
+  max-width: 300px;
+  height: 387px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
   backdrop-filter: blur(10px);
   border: 1px solid var(--vidro);
   overflow: hidden;
-  cursor: pointer;
-  min-width: 300px;
-  flex: 0 0 auto;
 }
 
 .info-projetos {
@@ -366,7 +369,7 @@ h2 {
   height: 45px;
   cursor: pointer;
   position: absolute;
-  z-index: 10;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -381,10 +384,17 @@ h2 {
 }
 
 .esquerda { left: -25px; }
-.direita { right: -25px; }
+.direita { right: 25px; }
 
 @media (max-width: 768px) {
-  .seta-carrossel { display: none; }
-  .esquerda { left: 0; }
-  .direita { right: 0; }
+  .seta-carrossel {
+    width: 35px;
+    height: 35px;
+    opacity: 0.8;
+  }
+  
+  .projetos-card {
+    min-width: 260px;
+    height: 420px;
+  }
 }
