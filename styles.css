@@ -139,7 +139,8 @@ h1 {
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 2rem;
-  padding: 1rem;
+  padding: 1.5rem 0;
+  margin: 0 40px;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -369,7 +370,7 @@ h2 {
   height: 45px;
   cursor: pointer;
   position: absolute;
-  z-index: 20;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -380,7 +381,7 @@ h2 {
 
 .seta-carrossel:hover {
   opacity: 1;
-  transform: scale(1.1);
+ transform: scale(1.1);
 }
 
 .esquerda { left: -25px; }
