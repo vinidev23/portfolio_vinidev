@@ -45,3 +45,14 @@ function digitarNome() {
 }
 
 digitarNome();
+
+function scrollCarrossel(direcao) {
+  const container = document.querySelector('.projetos-caixa');
+  const scrollAmount = 330;
+
+if (direcao === 1) {
+  container.scrollLeft += scrollAmount;
+} else {
+  container.scrollLeft -= scrollAmount;
+}
+}
