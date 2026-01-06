@@ -363,11 +363,8 @@ h2 {
 
 .seta-carrossel {
   position: absolute;
-  /* O segredo para o centro vertical exato */
   top: 50% !important;
   transform: translateY(-50%) !important;
-  
-  /* Reset de transição para evitar o atraso do seletor '*' */
   transition: opacity 0.3s, transform 0.3s !important;
   
   background: var(--primaria);
@@ -386,7 +383,6 @@ h2 {
   opacity: 0.8;
 }
 
-/* Posições laterais simétricas */
 .esquerda { 
   left: -25px !important; 
 }
@@ -395,13 +391,11 @@ h2 {
   right: -25px !important; 
 }
 
-/* Ajuste do Hover para não perder o centro vertical */
 .seta-carrossel:hover {
   opacity: 1;
   transform: translateY(-50%) scale(1.1) !important;
 }
 
-/* Correção para Mobile (para as setas não ficarem fora da tela) */
 @media (max-width: 768px) {
   .esquerda { left: 5px !important; }
   .direita { right: 5px !important; }
