@@ -20,6 +20,7 @@ export const projects = [
     ],
     media: { type: "video", src: "https://www.youtube.com/embed/9rhbb4AvgGo?si=s4FMjTChKBUEbQp8" },
     logo: "/img/medicore-logo.png",
+    link: "https://medicore-app-zfkk.onrender.com/",
     status: "Concluído",
     year: "2026",
   },
